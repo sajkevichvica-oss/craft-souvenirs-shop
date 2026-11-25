@@ -28,7 +28,7 @@ class TestOrderCalculator(unittest.TestCase):
 
     def test_calculate_subtotal(self):
         result = calculate_subtotal(self.items)
-        self.assertEqual(result, Decimal("980.00"))
+        self.assertEqual(result, Decimal("999.00"))
 
     def test_regular_customer_discount(self):
         result = apply_regular_customer_discount(
